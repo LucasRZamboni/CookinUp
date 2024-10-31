@@ -11,3 +11,6 @@ section{
     width: 100%;
     height: calc(100vh - 150px);
 }
+#home{
+    margin-top: 210px;
+}
