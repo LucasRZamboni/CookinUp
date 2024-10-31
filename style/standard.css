@@ -1,0 +1,17 @@
+@import url('font.css');
+
+:root {
+    --color1: #D1451E;
+    --color2: #F0633C;
+    --color3: #263A29;
+    --color4: #444444;
+    --color5: #FFFAF3;
+    --color6: #3D6D4A;
+    --color7: #070614;
+    --color8: #222222;
+    --color9: #ffffff;
+    --font1: "Nunito Sans", sans-serif;
+    --font2: "Paytone One", sans-serif;
+  }
+  
+  
