@@ -6,6 +6,27 @@
     height: 500px;
     margin-top: 150px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     border-right: 150px solid var(--color5);
     border-left: 150px solid var(--color5);
+}
+.banner .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+
+}
+.banner .left img{
+    width: 200px;
+}
+
+.banner .right{
+    width: 45%;
+
+} 
+.banner .right img{
+    width: 300px;
 }
