@@ -1,0 +1,80 @@
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 32px;
+    background: var(--color9);
+    height: 100px;
+}
+footer div ul{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    width: 15%;
+}
+footer div ul li {
+    align-items: center;
+    display: flex;
+}
+footer div ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
+footer div ul li:nth-child(1) a{
+    color: rgb(16, 16, 182);
+}
+footer div ul li:nth-child(2) a{
+    color: rgb(18, 94, 11);
+}
+footer div ul li:nth-child(3) a{
+    color: rgb(32, 100, 202);
+}
+
+footer div p{
+    font-family: var(--font1);
+    color: var(--color6);
+}
+footer div p a{
+    text-decoration: none;
+    color: var(--color6);
+}
+footer div .dev-itens{
+    flex-wrap: wrap;
+    width: 15%;
+    gap: 0;
+}
+footer div .dev-itens p{
+    text-align: center;
+}
+footer div .dev-itens div{
+    height: fit-content;
+    justify-content: center;
+    gap: 5px;
+    padding: 0;
+    width: fit-content;
+    margin: 0;
+}
+footer div .dev-itens div li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div .dev-itens div li ion-icon{
+    font-size: 25px;
+}
+
+footer div .dev-itens div li:nth-child(1){
+    color: var(--color1);
+}
+footer div .dev-itens div li:nth-child(2){
+    color: rgb(30, 30, 211);
+}
+footer div .dev-itens div li:nth-child(3){
+    color: rgb(211, 198, 15);
+}
